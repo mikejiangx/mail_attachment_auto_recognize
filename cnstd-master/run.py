@@ -10,6 +10,8 @@
 # box_info_list = std.detect('examples/taobao.jpg')
 
 from cnstd import CnStd
+import sys
+sys.path.append("./cncor")
 from cnocr import CnOcr
 
 std = CnStd()
